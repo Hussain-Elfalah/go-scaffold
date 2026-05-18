@@ -1,0 +1,15 @@
+-- Migration: 000001_init (DOWN)
+-- =============================================
+-- This file runs when you ROLL BACK migration 000001.
+--
+-- It should undo everything in 000001_init.up.sql in reverse order.
+-- If UP created tables, DOWN typically DROP TABLE (with care in production).
+--
+-- Example (only when you created the matching UP objects):
+--
+--   DROP TABLE IF EXISTS examples;
+--
+-- Because UP is currently a no-op, DOWN can also be a no-op.
+-- Keep UP and DOWN in sync whenever you add real schema changes.
+
+-- No-op for now.

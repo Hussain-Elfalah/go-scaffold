@@ -1,0 +1,18 @@
+-- Migration: 000001_init (UP)
+-- =============================================
+-- This file runs when you APPLY migrations (schema forward).
+--
+-- You do not need real tables for the health endpoint exercise.
+-- When you add a database later, put CREATE TABLE statements here.
+--
+-- Example (do not uncomment until you have a DB driver and migration runner):
+--
+--   CREATE TABLE IF NOT EXISTS examples (
+--       id         BIGSERIAL PRIMARY KEY,
+--       created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+--   );
+--
+-- Tools you might use later: golang-migrate, goose, atlas, etc.
+-- Each UP file should have a matching DOWN file for rollback.
+
+-- No-op for now: health check is stateless.
